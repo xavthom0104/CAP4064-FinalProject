@@ -1,0 +1,130 @@
+/*
+Author: Xavier Thomas
+Date: 4/28/2022
+File Name: styles.css
+*/
+header img {
+  width:50%;
+}
+img {
+	width:50%
+}
+header{
+	background-color: #d6d6c2;	
+}
+body {
+	background-color: #d6d6c2;	
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.floated_img
+{
+    float: left;
+	width:15%;
+}
+
+.navbar-fixed-top {
+  overflow:hidden;
+  background-color: black;
+  width: 100%;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+}
+
+.navbar-fixed-top a {
+  float: left;
+  display: block;
+  color: rgb(252, 186, 3);
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+  text-decoration: none;
+  font-family: Bebas Neue;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Bebas Neue;
+  font-size: 1em;
+}
+
+.navbar-fixed-top a.right {
+  float: right;
+}
+
+.navbar-fixed-top a:hover {
+  color: blue;
+}
+body {
+  border-style: solid;
+  border-width: 90px;
+  border-color:#d6d6c2;
+  font-family: roboto;
+  text-align:center;
+}
+
+
+h1,h2, h3, h4, h5 {
+  font-family: bebas neue;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  text-decoration:underline;
+  color: black;
+}
+a:hover {
+	 color: rgb(252, 186, 3);
+	 
+}
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 420px;
+    margin: auto;
+}
+
+img {
+    max-width: 820px;
+    max-height: 750px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: Bebas Neue;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.email {
+  padding-top: 1.5em;
+  font-size: 25px;
+}
+
+.email a {
+  text-decoration:none;
+  color:black;
+}
+
+.footer {
+  height: 600px;
+  padding-top: 15em;
+  font-family: bebas neue;
+  font-size: 35px;
+  letter-spacing: 3px;
+  background-color: #d6d6c2;	
+  
